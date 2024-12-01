@@ -26,8 +26,7 @@ const button1 = document.getElementById('buyurtma');
 const number1 = document.getElementById('tel');
 const message = document.querySelector('.message');
 
-const regex = /^[0-9]{2,14}$/; // 2 dan 14 gacha raqamlarni tekshirish uchun regex
-
+const regex = /^[0-9]{2,18}$/; 
 button1.addEventListener('click', () => {
   if (regex.test(number1.value)) {
     modal1.classList.add('hidden');
