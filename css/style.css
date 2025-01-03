@@ -118,6 +118,10 @@ nav{
   border-radius: 5px;
 }
 
+.rasmlar img{
+  border-radius: 5px;
+}
+
 footer{
   display: flex;
   justify-content: space-around;
@@ -308,4 +312,24 @@ color: #ea0e0e;
 
 .tel{
   width: 260px;
+}
+
+.imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: 0;
+  gap: 15px;
+}
+
+.imgs img {
+  border-radius:10px;
+}
+
+.sotib-olish {
+  display: flex;
+  justify-content: left;
+  margin-left: 0;
+}
+.sotish-b {
 }
